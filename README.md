@@ -1,6 +1,36 @@
 # vue-examples
-###
-Promise; Deserialize Request Objects
+### Vuetify - 2020.06.06
+https://vuetifyjs.com/zh-Hans/
+
+Vuetify是基于Vue.js的的UI框架，基于Google Material Design设计思想与规范  
+提供了大量基于Material Design设计的组件，Cards/Alerts/Lists；以及Calendars/Color Pickers/TreeView等扩展组件
+
+为什么不选用国内更流行的element-ui？  
+element-ui是一款优秀的Vue.js UI框架，是凝聚了饿了么大量优秀前端工程师心血的开源项目  
+最开始我用的也是element-ui，但一次侧边栏内功能文字过长超过侧边栏默认宽度，当尝试调整时，使用一种方法修改就会引发另一种问题，滚动条/字体别切断不完整/字体覆盖等等各种问题。  
+最后搜索尝试了Vuefity，非常喜欢，就再无法切回到element-ui  
+相对于element-ui，我也更喜欢Vuetify的主题配色，Card等效果  
+
+#### Installation
+https://vuetifyjs.com/zh-Hans/getting-started/quick-start/  
+
+npm安装  
+main.js引入模块  
+html引入字体/图标样式  
+
+#### Application  
+https://vuetifyjs.com/zh-Hans/components/application/  
+
+在App.vue根组件开始，声明使用vuetify组件
+
+Grids  
+https://vuetifyjs.com/zh-Hans/components/grids/  
+经典12x栅格布局
+
+Cards; Lists; Icons; Dialogs  
+
+### 2020.05.06
+Deserialize Request Objects
 
 ### 2020.04.25
 Promise   

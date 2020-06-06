@@ -1,9 +1,16 @@
 <template>
-  <div id="app">
-    <sidebar id="sidebar" />
-    <router-view id="router" :key="$route.path" />
+  <v-app id="app" style="border: 1px solid red;">
+    <v-container fluid style="border: 1px solid red;">
+      <v-row style="border: 1px solid red;">
+        <v-col sm="6" md="3"><sidebar id="sidebar" /></v-col>
+        <v-col sm="6" md="9">
+          <router-view id="router" :key="$route.path" />
+        </v-col>
+      </v-row>
+    </v-container>
+
     <alertdialog />
-  </div>
+  </v-app>
 </template>
 <script>
 import sidebar from "@/views/Sidebar";
@@ -14,23 +21,3 @@ export default {
   }
 };
 </script>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-#app {
-  margin-top: 10px;
-  display: flex;
-}
-#sidebar {
-  width: 300px;
-  border: 1px solid red;
-}
-#router {
-  border: 1px solid red;
-  flex: 1;
-}
-</style>
