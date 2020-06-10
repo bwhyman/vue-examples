@@ -1,4 +1,4 @@
-# Frameworks for Web Application - Vue Course
+# Frameworks for Web Application - Vue
 ### Overview
 China, Northeast Forestry University, Software Engineering, Frameworks for Web Application, 2020
 
@@ -7,6 +7,19 @@ Web系统框架，是东北林业大学软件工程专业第6学期的一门专�
 
 课程前部分，基于Springboot框架的后端微服务架构、设计思想与实现技术。  
 课程后部分，基于Vue框架的前端MVVM设计模式、组件化设计与单页面开发技术。
+
+#### Development Environments
+开发环境/框架及版本
+- VS Code 1.42
+- Node.js 12.16
+- Vue 2.2.11
+- VueX 3.1.2
+- Axios 0.19.2
+- Git 2.24
+
+#### Course Details
+课程视频资料
+- https://mooc1-1.chaoxing.com/course/208931964.html
 
 ### Vuetify - 2020.06.06
 https://vuetifyjs.com/zh-Hans/
