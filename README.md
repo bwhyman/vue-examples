@@ -1,4 +1,8 @@
-# Frameworks for Web Application - Vue
+# Frameworks for Web Application - Vue - Deprecated
+
+停止维护，请参阅TypeScript/Vue3示例代码  
+https://github.com/bwhyman/vue3-examples
+
 ### Overview
 China, Northeast Forestry University, Software Engineering, Frameworks for Web Application, 2020
 
